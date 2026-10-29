@@ -28,6 +28,15 @@ These are hard constraints — never deviate.
 | internal builder names | customer-facing capability names only |
 | channel (as workspace) | Brand |
 | channels (plural workspace) | Brands |
+| A2A, Agent-to-Agent protocol, JSON-RPC, REST APIs | background agent collaboration, autonomous coordination |
+| technical plumbing, schemas, wire protocols | brand guidelines, verified assets, structured brand rules |
+
+### No internal technical or protocol details
+
+Customer documentation must never expose internal architecture, engineering specs, or wire protocols.
+- **Never mention protocols like A2A (Agent-to-Agent protocol)**, JSON-RPC, LangGraph, DAGs, or internal endpoints.
+- Focus strictly on the **customer experience and outcomes**: what the agents do for the brand, how they coordinate autonomously in the background, and how brand context propagates without manual effort.
+- Frame collaboration around capabilities: *"agents coordinate autonomously in the background"* rather than *"agents communicate over the A2A protocol"*.
 
 ## Page anatomy
 

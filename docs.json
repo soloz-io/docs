@@ -38,7 +38,8 @@
             "group": "The Computers",
             "pages": [
               "features/computers/creative-studio",
-              "features/computers/product-development"
+              "features/computers/product-development",
+              "features/computers/agent-collaboration"
             ]
           }
         ]
