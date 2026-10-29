@@ -1,6 +1,6 @@
 ---
 name: writing-style
-description: Writing style guide for Nutgraf documentation. Use whenever creating, editing, or reviewing any MDX page in this docs project. Covers tone, page anatomy, section headings, sentence construction, and length calibration — modelled on manus.im/docs. Always activate this skill before writing any documentation page.
+description: Writing style guide for Nutgraf documentation. Use whenever creating, editing, or reviewing any MDX page in this docs project. Covers product identity, tone, page anatomy, section headings, sentence construction, and length calibration — modelled on manus.im/docs. Always activate this skill before writing any documentation page.
 ---
 
 # Nutgraf Documentation Writing Style
@@ -109,12 +109,38 @@ Do not pad to fill space. Do not truncate to save space. Match the calibration a
 - Ellipsis or em-dash overuse in body copy.
 - Describing the UI in minute detail (exact button coordinates, pixel sizes). Refer to UI elements by their visible label in **bold**.
 
+## Product identity — read this before writing anything
+
+This is the most important section. Get this wrong and all the writing will be wrong.
+
+**What Nutgraf is:**
+Nutgraf is an agentic multi-brand building platform. It builds the agentic capabilities a brand needs — and those capabilities grow over time as the platform evolves.
+
+**What Nutgraf is NOT:**
+- Not a "media studio" — that is too narrow and defines the platform by its current outputs
+- Not a "content production tool" — same problem
+- Not a task runner or operations tool — building comes before running
+
+**The correct mental model:**
+- The **Brand** is the constant — the persistent unit a customer owns and grows
+- **Agentic capabilities** are what Nutgraf builds for that Brand
+- Today those capabilities include video production and app development — but these are the first two, not the definition of the platform
+- The platform grows: as Nutgraf adds more capabilities, every Brand gains access to them
+
+**Core vocabulary:**
+- Use **"build"** as the primary verb — Nutgraf builds agentic capabilities for brands
+- Use **"capabilities"** — not "features", not "tools", not "modules"
+- Use **"Brand"** — the top-level unit. Not "project", not "workspace" as the primary label, not "channel"
+- Avoid framing the product around any specific Computer (video, code) — these are capabilities, not the product identity
+
+---
+
 ## Nutgraf-specific concepts to use accurately
 
 Use these explanations as reference when writing about each concept.
 
 **Brand**
-A persistent workspace for one brand business. Holds the master brand brief, creative direction, target audience, and digital presenter configurations. A customer can run multiple Brands under a single account — each has complete context isolation. Equivalent to "Projects" in Manus.
+A persistent workspace for one brand business. Holds the master brand brief, creative direction, target audience, and digital presenter configurations. A customer can run multiple Brands under a single account — each Brand is fully isolated. The Brand is the core unit of Nutgraf: agentic capabilities are built for it and scoped to it.
 
 **Stories**
 The daily session bar inside a Brand. Shows all active and completed computer runs for the day, grouped by date. Each story tab corresponds to a conversation with the Brand agent or with a specific Computer (Video, Code, etc.).
