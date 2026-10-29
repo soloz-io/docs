@@ -30,7 +30,8 @@
             "pages": [
               "features/brands/overview",
               "features/brands/workspace",
-              "features/brands/stories"
+              "features/brands/stories",
+              "features/brands/schedules"
             ]
           },
           {
